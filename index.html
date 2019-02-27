@@ -1,0 +1,73 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Crystal Game!</h1>
+        <p class="lead">Match your score to the Goal Score to win!</p>
+        <hr class="my-4">
+        <p>Remember that each crystal is assigned a differnt value. Clicking one crystal will
+            add an unknown amount to your score; it is your job to figure out the value and acheive
+            the Goal Score!
+        </p>
+        <div class="container">
+            <button type="button" class="btn btn-primary">
+                Wins <span class="wins">0</span>
+            </button>
+            <button type="button" class="btn btn-primary">
+                Losses <span class="losses">0</span>
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="your-score">Your total score is:</div>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="your-number">0</h1>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-2">
+                    <button class="btn1"><img src="https://bit.ly/2Vmt5qn" width="90" width="90"></button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn2"><img src="https://bit.ly/2Vmt5qn" width="90" width="90"></button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn3"><img src="https://bit.ly/2Vmt5qn" width="90" width="90"></button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn4"><img src="https://bit.ly/2Vmt5qn" width="90" width="90"></button>
+                </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="goal-score">Your Goal Score is:</div>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="goal-number">0</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+
+</html>
